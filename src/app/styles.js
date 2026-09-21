@@ -29,6 +29,12 @@ export default StyleSheet.create({
         paddingBottom: 20,
         alignItems: "center",
     },
+    textBox: {
+        backgroundColor: "lightgray",
+        width: "50%",
+        padding: 5,
+        margin: 10
+    },
 
     icon: {
         width: 40,
@@ -37,7 +43,8 @@ export default StyleSheet.create({
 
     button: {
         backgroundColor: "lightgray",
-        padding: 10,
+        padding: 5,
+        alignItems: "center",
     },
 
     songThumbnail: {

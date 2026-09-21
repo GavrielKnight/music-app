@@ -20,11 +20,11 @@ export default function Layout({ children }) {
                     <Text style={styles.title1}>Inicio</Text>
                 </Pressable>
 
-                <Pressable onPress={() => router.push("/perfil")}>
-                    <Text style={styles.title1}>Perfil</Text>
+                <Pressable onPress={() => router.push("/search")}>
+                    <Text style={styles.title1}>Buscar</Text>
                 </Pressable>
 
-                <Pressable onPress={() => router.push("/configuracion")}>
+                <Pressable>
                     <Text style={styles.title1}>Configuración</Text>
                 </Pressable>
             </View>
