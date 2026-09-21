@@ -4,16 +4,13 @@ export default StyleSheet.create({
     title1: {
         fontSize: 20,
         fontWeight: "bold",
-        paddingBottom: 20,
+        paddingBottom: 10,
     },
     title2: {
         fontSize: 18,
         paddingBottom: 10,
     },
 
-    layoutBox: {
-        flex: 1,
-    },
     layout: {
         backgroundColor: "limegreen",
         padding: 20,
@@ -22,9 +19,20 @@ export default StyleSheet.create({
         justifyContent: "space-evenly",
     },
 
+    horizontalBox: {
+        flexDirection: "row",
+        justifyContent: "space-evenly",
+        paddingBottom: 20,
+    },
     scrollingBox: {
         gap: 20,
         paddingBottom: 20,
+        alignItems: "center",
+    },
+
+    icon: {
+        width: 40,
+        height: 40
     },
 
     button: {
